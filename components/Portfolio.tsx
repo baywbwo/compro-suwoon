@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 
 // Reusable Image Comparison Component
 const ImageComparison: React.FC<{ beforeImg: string; afterImg: string; label: string }> = ({ beforeImg, afterImg, label }) => {
