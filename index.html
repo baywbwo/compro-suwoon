@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUWOON TECHWORK! - Enterprise IT Solutions</title>
+    <meta name="description" content="Jasa IT Support Panggilan, Instalasi Jaringan LAN & CCTV Terpercaya untuk Kantor & Rumah.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0b162a', // Wowrack-like Deep Navy
+                navyLight: '#15233b',
+                blue: '#0056b3', // Professional Blue
+                pink: '#db2777', // Identity Accent
+                pinkDark: '#be185d',
+                surface: '#f8f9fa',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'Roboto', 'sans-serif'],
+            },
+            boxShadow: {
+              'glow': '0 0 20px rgba(219, 39, 119, 0.3)',
+              'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Offset for sticky header anchor links */
+      html {
+        scroll-padding-top: 6rem;
+      }
+      
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+
+      /* Custom slider thumb styles for the comparison slider */
+      input[type=range]::-webkit-slider-thumb {
+        pointer-events: none;
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+      }
+      input[type=range]::-moz-range-thumb {
+        pointer-events: none;
+        border: none;
+        width: 0;
+        height: 0;
+      }
+      
+      /* Hide scrollbar for mobile menu */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* Mega Menu Transitions */
+      .group:hover .group-hover\:visible {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-slate-800 antialiased selection:bg-brand-pink selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
